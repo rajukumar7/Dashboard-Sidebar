@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- BOX Icons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="sidebar close">
+      <header>
+        <div class="image-text">
+          <span class="logo">
+            <img src="logo.jpg" alt="logo" />
+          </span>
+          <div class="text header-text">
+            <span class="name">Raju Kumar</span>
+            <!-- <span class="profession">Kumar</span> -->
+          </div>
+        </div>
+        <i class="bx bx-chevron-right toggle"></i>
+      </header>
+      <div class="menu-bar">
+        <div class="menu">
+          <li class="search-box">
+            <i class="bx bx-search icon"></i>
+            <input type="text" placeholder="Search..." />
+          </li>
+          <ul class="menu-links">
+            <li class="nav-link">
+              <a href="#">
+                <i class="bx bxs-home icon"></i>
+                <span class="text nav-text">Dashboard</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="#">
+                <i
+                  class="bx bxl-facebook bx-tada icon"
+                  style="color: #3b5998"
+                ></i>
+                <span class="text nav-text">Facebook</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="#">
+                <i
+                  class="bx bxl-instagram bx-tada icon"
+                  style="color: rgb(228, 64, 95)"
+                ></i>
+                <span class="text nav-text">Instagram</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="#">
+                <i
+                  class="bx bxl-whatsapp bx-tada icon"
+                  style="color: rgb(2, 250, 138)"
+                ></i>
+                <span class="text nav-text">WhatsApp</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="#">
+                <i
+                  class="bx bxl-twitter bx-tada icon"
+                  style="color: rgb(4, 251, 255)"
+                ></i>
+                <span class="text nav-text">Twitter</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="#">
+                <i
+                  class="bx bxl-linkedin bx-tada icon"
+                  style="color: rgb(10, 2, 252)"
+                ></i>
+                <span class="text nav-text">LinkedIn</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="youtube.html">
+                <i class="bx bxl-youtube bx-tada icon" style="color: red"></i>
+                <span class="text nav-text">YouTube</span>
+              </a>
+            </li>
+            <!-- <li class="nav-link">
+              <a href="#">
+                <i class="bx bxl-discord-alt bx-tada icon"></i>
+                <span class="text nav-text">Discord</span>
+              </a>
+            </li> -->
+          </ul>
+        </div>
+        <div class="button-content">
+          <li class="nav-link">
+            <a href="#">
+              <i class="bx bx-log-out icon"></i>
+              <span class="text nav-text">Logout</span>
+            </a>
+          </li>
+
+          <li class="mode">
+            <div class="sun-moon">
+              <i class="bx bxs-moon icon moon"></i>
+              <i class="bx bxs-sun icon sun"></i>
+            </div>
+            <span class="mode-text text">Dark Mode</span>
+            <div class="toggle-switch">
+              <span class="switch"> </span>
+            </div>
+          </li>
+        </div>
+      </div>
+    </nav>
+
+    <section class="home">
+      <div class="text">Welcome!</div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
